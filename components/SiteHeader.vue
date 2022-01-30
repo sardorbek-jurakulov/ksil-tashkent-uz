@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h2>Site Header</h2>
+    <a href=""></a>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+
+}
+</script>
