@@ -74,5 +74,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: "";
+  background-color: #e8e4ec;
+  background-image: url("@/assets/img/first-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }
