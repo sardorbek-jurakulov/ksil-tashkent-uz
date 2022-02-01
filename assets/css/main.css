@@ -69,15 +69,39 @@ body {
   color: #333;
 }
 
-.header {
+/***********************\
+Index page banner section
+\***********************/
+
+.banner {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   background-color: #e8e4ec;
   background-image: url("@/assets/img/first-banner.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 100vh;
+}
+
+.banner__main-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__heading {
+  font-size: 65px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner__contact-number-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
