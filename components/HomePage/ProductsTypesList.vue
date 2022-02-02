@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5">
+  <div class="container p-5 mb-5">
     <h2 class="text-primary text-center mb-5">ОБОРУДОВАНИЕ ДЛЯ ИГРОВЫХ ПЛОЩАДОК</h2>
     <div class="d-flex flex-wrap justify-content-between align-items-center">
       <a class="d-flex flex-column justify-content-center align-items-center mb-5" href="#" target="_self">

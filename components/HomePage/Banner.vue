@@ -1,5 +1,5 @@
 <template>
-  <div class="banner">
+  <div class="banner mb-5">
     <div class="banner__main-info-wrapper">
       <h2 class="banner__heading">ДЕТСКИЕ ПЛОЩАДКИ</h2>
       <img class="banner__logo-image" src="@/assets/img/logo-first.png" width="620" height="410" alt="ДЕТСКИЕ ПЛОЩАДКИ">
