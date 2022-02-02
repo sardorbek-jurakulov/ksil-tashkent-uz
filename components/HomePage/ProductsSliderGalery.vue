@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2>ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
+  <div class="container p-5">
+    <h2 class="text-center text-primary mb-5">ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
     <VueSlickCarousel 
       :arrows="true" 
       :dots="true" 
@@ -9,6 +9,7 @@
       :rows="1" 
       :slidesPerRow="3"
       ref="carousel"
+      class="mb-5 d-flex align-items-center jsutify-content-center"
     >
       <div>
         <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="300" height="250">
@@ -29,13 +30,13 @@
         <img src="@/assets/img/slider/slider-6.jpg" alt="slide" width="300" height="250">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-7.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-7.jpg" alt="slide" width="280" height="250">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-8.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-8.jpg" alt="slide" width="200" height="200">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-9.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-9.png" alt="slide" width="300" height="250">
       </div>
       <div>
         <img src="@/assets/img/slider/slider-10.jpg" alt="slide" width="300" height="250">
@@ -47,7 +48,7 @@
         <img src="@/assets/img/slider/slider-12.jpg" alt="slide" width="300" height="250">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-13.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-13.jpg" alt="slide" width="280" height="250">
       </div>
       <div>
         <img src="@/assets/img/slider/slider-14.jpg" alt="slide" width="300" height="250">
@@ -68,10 +69,10 @@
         <img src="@/assets/img/slider/slider-19.jpg" alt="slide" width="300" height="250">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-20.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-20.png" alt="slide" width="300" height="250">
       </div>
       <div>
-        <img src="@/assets/img/slider/slider-21.jpg" alt="slide" width="300" height="250">
+        <img src="@/assets/img/slider/slider-21.png" alt="slide" width="300" height="250">
       </div>
     </VueSlickCarousel>
   </div>
@@ -80,7 +81,6 @@
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-// optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
@@ -88,3 +88,7 @@ export default {
   components: { VueSlickCarousel },
 }
 </script>
+
+<style scoped>
+
+</style>
