@@ -1,40 +1,90 @@
 <template>
   <div>
     <h2>ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="@/assets/img/slides.jpg" alt="Los Angeles" width="1800" height="900">
-        </div>
-
-        <div class="item">
-          <img src="@/assets/img/slides.jpg" alt="Chicago" width="1800" height="900">
-        </div>
-
-        <div class="item">
-          <img src="@/assets/img/slides.jpg" alt="New York" width="1800" height="900">
-        </div>
+    <VueSlickCarousel 
+      :arrows="true" 
+      :dots="true" 
+      :autoplay="true" 
+      :autoplaySpeed="3000" 
+      :rows="1" 
+      :slidesPerRow="3"
+      ref="carousel"
+    >
+      <div>
+        <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="300" height="250">
       </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+      <div>
+        <img src="@/assets/img/slider/slider-2.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-3.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-4.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-5.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-6.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-7.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-8.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-9.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-10.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-11.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-12.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-13.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-14.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-15.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-16.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-17.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-18.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-19.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-20.jpg" alt="slide" width="300" height="250">
+      </div>
+      <div>
+        <img src="@/assets/img/slider/slider-21.jpg" alt="slide" width="300" height="250">
+      </div>
+    </VueSlickCarousel>
   </div>
 </template>
 
-<script></script>
+<script>
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
+export default {
+  name: 'MyComponent',
+  components: { VueSlickCarousel },
+}
+</script>
