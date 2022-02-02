@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5" id="productsSliderGalery">
+  <div class="container p-5 mb-5" id="productsSliderGalery">
     <h2 class="text-center text-primary mb-5">ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
     <VueSlickCarousel 
       :arrows="true" 
@@ -9,7 +9,7 @@
       :rows="1" 
       :slidesPerRow="3"
       ref="carousel"
-      class="mb-5 d-flex align-items-center jsutify-content-center"
+      class="d-flex align-items-center jsutify-content-center flex-wrap border border-primary"
     >
       <div class="background-color: red;">
         <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="300" height="250">
