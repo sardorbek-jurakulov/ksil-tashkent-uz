@@ -123,11 +123,27 @@ Index page banner section
 .banner__site-link {
   font-size: 30px;
   color: #fff;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-top-width: 1px;
 }
 
 .banner__site-link:hover {
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
+  border-bottom-color: rgba(255, 255, 255, 1);
+  transition: border-bottom-color ease 0.5s;
+}
+
+.banner__site-link:active {
+  color: #fff;
+  text-decoration: none;
+  border-top-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 1);
+  transition: border-bottom-color ease 0.5s, border-bottom-color ease 0.5s;
 }
 
 .banner__contact-number-link-wrapper {
@@ -140,11 +156,27 @@ Index page banner section
 .banner__contact-number-link {
   color: #fff;
   font-size: 35px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-top-width: 1px;
 }
 
 .banner__contact-number-link:hover {
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
+  border-bottom-color: rgba(255, 255, 255, 1);
+  transition: border-bottom-color ease 0.5s;
+}
+
+.banner__contact-number-link:active {
+  color: #fff;
+  text-decoration: none;
+  border-top-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 1);
+  transition: border-top-color ease 0.5s, border-bottom-color ease 0.5s;
 }
 
 .banner__more-info-button {
@@ -166,7 +198,16 @@ Index page banner section
 
 .banner__more-info-button:hover {
   color: #ccc;
+  box-shadow: 0px 0px 4px 3px #ccc;
   text-decoration: none;
+  transition: color ease 0.5s, box-shadow ease 0.5s;
+}
+
+.banner__more-info-button:active {
+  color: #888;
+  box-shadow: 0px 0px 4px 3px #888;
+  text-decoration: none;
+  transition: color ease 0.5s, box-shadow ease 0.5s;
 }
 
 /***********************\
