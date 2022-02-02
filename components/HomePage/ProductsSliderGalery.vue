@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5">
+  <div class="container p-5" id="productsSliderGalery">
     <h2 class="text-center text-primary mb-5">ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
     <VueSlickCarousel 
       :arrows="true" 

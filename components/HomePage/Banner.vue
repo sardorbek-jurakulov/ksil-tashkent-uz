@@ -9,7 +9,7 @@
         <a class="banner__contact-number-link" href="tel:+998995003303">+998 99 500 33 03</a>
       </div>
     </div>
-    <a class="banner__more-info-button" href="#" target="_self"> &#10095; </a>
+    <a class="banner__more-info-button" href="#productsSliderGalery" target="_self"> &#10095; </a>
   </div>
 </template>
 
