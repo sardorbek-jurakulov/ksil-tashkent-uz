@@ -11,7 +11,7 @@
       ref="carousel"
       class="mb-5 d-flex align-items-center jsutify-content-center"
     >
-      <div>
+      <div class="background-color: red;">
         <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="300" height="250">
       </div>
       <div>
