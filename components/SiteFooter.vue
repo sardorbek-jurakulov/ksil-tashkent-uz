@@ -16,7 +16,6 @@
     site-footer__title
     ">Узнайте о нас больше</h2>
     <div class="
-    border border-primary
     w-75 
     d-flex 
     flex-column 
@@ -25,7 +24,6 @@
     align-items-center
     ">
       <div class="
-      border border-danger
       w-100 
       w-lg-50
       d-flex 
@@ -89,7 +87,11 @@
           </div>
         </div>
         <div class="
-        align-self-stretch 
+        align-self-stretch
+        d-flex
+        flex-column
+        align-items-center 
+        align-items-lg-start 
         p-3 
         p-md-4 
         mb-3 
@@ -103,11 +105,15 @@
           <div class="
           d-flex 
           flex-column
+          align-items-center
+          align-items-lg-start
           ">
             <div>
               <p class="
               d-inline-flex 
               flex-column
+              align-items-center
+              align-items-lg-start
               ">
                 <span class="
                 mb-2 
@@ -125,6 +131,8 @@
               <p class="
               d-inline-flex 
               flex-column
+              align-items-center
+              align-items-lg-start
               ">
                 <span class="
                 mb-3 
