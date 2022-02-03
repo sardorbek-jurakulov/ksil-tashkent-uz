@@ -33,6 +33,8 @@
 
 .banner__main-info-wrapper {
   min-height: 60vh;
+  position: relative;
+  bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,8 +127,8 @@
 
 .banner__more-info-button {
   position: absolute;
-  bottom: 3%;
-  right: 50%;
+  bottom: 20px;
+  right: center;
   color: #fff;
   transform: rotate(90deg);
   background-color: rgba(217,175, 57, 0.9);
