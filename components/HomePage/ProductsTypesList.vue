@@ -1,9 +1,9 @@
 <template>
-  <div class="container p-5 mb-5">
+  <div class="container p-5 mb-5 products-types-container">
     <h2 class="text-primary text-center mb-5">ОБОРУДОВАНИЕ ДЛЯ ИГРОВЫХ ПЛОЩАДОК</h2>
-    <div class="d-flex flex-wrap justify-content-between align-items-center">
-      <a class="d-flex flex-column justify-content-center align-items-center mb-5" href="#" target="_self">
-        <h3 class="order-1">Горки</h3>
+    <div class="d-flex flex-wrap justify-content-between align-items-center products-types-container-items-wrapper">
+      <a class="d-flex flex-column justify-content-center align-items-center mb-5 products-types-container-item" href="#" target="_self">
+        <h3 class="order-1 mb-4">Горки</h3>
         <img class="mb-4" src="@/assets/img/products-types/slides.jpg" alt="Горки" width="300" height="200">
       </a>
       <a class="d-flex flex-column justify-content-center align-items-center mb-5" href="#" target="_self">
@@ -33,5 +33,21 @@
 <script></script>
 
 <style scoped>
+.products-types-container-item {
+  color: #007bff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  transition: box-shadow ease 0.3s;
+}
 
+.products-types-container-item:hover {
+  color: #0063cc;
+  border: 2px solid #0063cc;
+  text-decoration: none;
+  box-shadow: -8px 8px 5px #ccc;
+}
+
+.products-types-container-item:active {
+  box-shadow: 0px 0px 0px #ccc;
+}
 </style>
