@@ -1,15 +1,23 @@
 <template>
-  <div class="container-fluint site-footer site-footer__container">
-  <h2 class="site-footer__title">Узнайте о нас больше</h2>
-    <div>
-      <div>
-        <div>
-          <h3>Рабочие дни</h3>
-          <p>Понедельник - Суббота: 8:00 - 20:00</p>
-          <p>Воскресенье - 10:00 - 15:00</p>
-          <p>Звонки ежедневно до 22:00</p>
+  <div class="container-fluint d-flex flex-column align-items-center justify-content-center p-3 p-md-5 site-footer site-footer__container">
+    <h2 class="m-3 m-md-4 site-footer__title">Узнайте о нас больше</h2>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="">
+        <div class="p-3 p-md-4 site-footer__working-info-container">
+          <h3 class="mb-3 font-weight-bold">Рабочие дни &#128198;</h3>
+          <div class="d-flex flex-column">
+            <div>
+              <p class="d-inline-block border border-top-0 border-right-0 border-left-0 border-secondary">Понедельник - Суббота: 8:00 - 20:00 &#9200;</p>
+            </div>
+            <div>
+              <p class="d-inline-block border border-top-0 border-right-0 border-left-0 border-secondary">Воскресенье - 10:00 - 15:00 &#9200;</p>
+            </div>
+            <div>
+              <p class="d-inline-block border border-top-0 border-right-0 border-left-0 border-secondary">Звонки ежедневно до 22:00 &#9200;</p>
+            </div>
+          </div>
         </div>
-        <div>
+        <div class="site-footer__working-info-container">
           <h3>Наши контакты</h3>
           <p>Телефоны и telegram: 
             <a href="tel:+998995002202">+998 99 500 22 02</a>
@@ -35,5 +43,10 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.site-footer__working-info-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid #fff;
 }
 </style>
