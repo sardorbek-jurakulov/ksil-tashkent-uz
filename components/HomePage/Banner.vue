@@ -202,7 +202,7 @@
   }
   
   .banner__main-info-wrapper {
-    min-height: 55vh;
+    min-height: 50vh;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -292,7 +292,7 @@
   }
   
   .banner__main-info-wrapper {
-    min-height: 40vh;
+    min-height: 30vh;
     padding-top: 15px;
     padding-bottom: 8px;
     padding-left: 15px;
