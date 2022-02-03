@@ -1,6 +1,6 @@
 <template>
-  <div class="container p-5 mb-5" id="productsSliderGalery">
-    <h2 class="text-center text-primary mb-5">ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
+  <div class="container p-5 mb-5 products-slider-section products-slider-section__container" id="productsSliderGalery">
+    <h2 class="text-center mb-5 products-slider-section__title">ДЕТСКИЕ ИГРОВЫЕ И СПОРТИВНЫЕ ПЛОЩАДКИ</h2>
     <VueSlickCarousel 
       :arrows="true" 
       :dots="true" 
@@ -191,5 +191,7 @@ export default {
 </script>
 
 <style scoped>
-
+.products-slider-section__title {
+  color: #f8c90a;
+}
 </style>
