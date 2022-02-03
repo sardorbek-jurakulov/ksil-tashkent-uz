@@ -1,6 +1,6 @@
 <template>
-  <div class="container p-5 mb-5 products-types-container">
-    <h2 class="text-primary text-center mb-5">ОБОРУДОВАНИЕ ДЛЯ ИГРОВЫХ ПЛОЩАДОК</h2>
+  <div class="container p-5 mb-5 products-types-section products-types-section__container">
+    <h2 class="text-center mb-5 products-types-section__title">ОБОРУДОВАНИЕ ДЛЯ ИГРОВЫХ ПЛОЩАДОК</h2>
     <div class="
       d-flex 
       flex-wrap 
@@ -26,6 +26,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Горки</h3>
         <img class="
         mb-3
@@ -47,6 +48,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Качели</h3>
         <img class="
         mb-3
@@ -67,6 +69,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Качалки на пружине</h3>
         <img class="
         mb-3
@@ -87,6 +90,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Детские комплексы</h3>
         <img class="
         mb-3
@@ -107,6 +111,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Песочницы</h3>
         <img class="
         mb-3
@@ -127,6 +132,7 @@
         mb-3
         mb-md-4
         px-2
+        products-types-container__item-title
         ">Машинки и паровозики</h3>
         <img class="
         mb-3
@@ -141,6 +147,11 @@
 <script></script>
 
 <style scoped>
+.products-types-section__title {
+  /* color: #f8c90a; */
+  color: #00C851;
+}
+
 .products-types-container__item {
   color: #007bff;
   border: 2px solid #ffffff;
@@ -150,13 +161,17 @@
 
 .products-types-container__item:hover {
   color: #0063cc;
-  border: 2px solid #0063cc;
+  border-color: #00C851;
   text-decoration: none;
   box-shadow: -8px 8px 5px #ccc;
 }
 
 .products-types-container__item:active {
   box-shadow: 0px 0px 0px #ccc;
+}
+
+.products-types-container__item-title {
+  color: #00C851;
 }
 
 .products-types-container__item-image {
