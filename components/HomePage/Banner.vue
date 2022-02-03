@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   background-color: #e8e4ec;
-  background-image: url("@/assets/img/childrens complexes.jpg");
+  background-image: url("@/assets/img/banner-bg-2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -37,8 +37,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(217,175, 57,255);*/
+  background-color: rgba(217,175, 57, 0.9);
+  /*background-color: rgba(0, 0, 0, 0.4);*/
   border-radius: 10px;
   box-shadow: 0px 0px 4px 3px #fff;
   padding-top: 30px;
@@ -128,8 +129,7 @@
   right: 50%;
   color: #fff;
   transform: rotate(90deg);
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(217,175, 57, 0.9);
   border-radius: 5px;
   box-shadow: 0px 0px 4px 3px #fff;
   padding-top: 5px;
@@ -141,14 +141,14 @@
 
 .banner__more-info-button:hover {
   color: #ccc;
-  box-shadow: 0px 0px 4px 3px #ccc;
+  box-shadow: 0px 0px 4px 3px #eee;
   text-decoration: none;
   transition: color ease 0.5s, box-shadow ease 0.5s;
 }
 
 .banner__more-info-button:active {
   color: #888;
-  box-shadow: 0px 0px 4px 3px #888;
+  box-shadow: 0px 0px 4px 3px #eee;
   text-decoration: none;
   transition: color ease 0.5s, box-shadow ease 0.5s;
 }
