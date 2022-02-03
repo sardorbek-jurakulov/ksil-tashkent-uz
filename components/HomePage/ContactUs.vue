@@ -5,6 +5,8 @@
   flex-column
   align-items-center
   justify-content-center
+  mb-4
+  mb-md-5
   p-4
   p-md-5
   contact-us contact-us__container

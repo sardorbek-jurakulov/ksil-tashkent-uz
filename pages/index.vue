@@ -4,7 +4,7 @@
     <app-products-slider-galery></app-products-slider-galery>
     <app-products-types-list></app-products-types-list>
     <app-contact-us></app-contact-us>
-    <!--<app-about-us></app-about-us>-->
+    <app-about-us></app-about-us>
   </div>
 </template>
 
