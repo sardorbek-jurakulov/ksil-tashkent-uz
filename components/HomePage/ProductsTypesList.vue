@@ -10,8 +10,7 @@
       justify-content-xl-between
       justify-content-lg-around
       align-items-center 
-      products-types-container__items-wrapper 
-      border border-primary
+      products-types-container__items-wrapper
     ">
       <a class="
       d-flex 
