@@ -16,6 +16,7 @@
     site-footer__title
     ">Узнайте о нас больше</h2>
     <div class="
+    border border-primary
     w-75 
     d-flex 
     flex-column 
@@ -24,7 +25,9 @@
     align-items-center
     ">
       <div class="
-      w-50 
+      border border-danger
+      w-100 
+      w-lg-50
       d-flex 
       flex-column 
       align-items-center 
@@ -33,10 +36,14 @@
       ">
         <div class="
         align-self-stretch 
+        d-flex
+        flex-column
+        align-items-center
+        align-items-lg-start
         mb-3 
-        mb-md-4 
+        mb-lg-4 
         p-3 
-        p-md-4 
+        p-lg-4 
         site-footer__working-info-container
         ">
           <h3 class="
@@ -46,6 +53,8 @@
           <div class="
           d-flex 
           flex-column
+          align-items-center
+          align-items-lg-start
           ">
             <div>
               <p class="
@@ -83,8 +92,8 @@
         align-self-stretch 
         p-3 
         p-md-4 
-        mb-0 
-        mb-lg-3 
+        mb-3 
+        mb-lg-0 
         site-footer__working-info-container
         ">
           <h3 class="
@@ -132,8 +141,10 @@
         </div>
       </div>
       <div class="
-      w-50 
-      ml-5 
+      w-100 
+      w-lg-50
+      ml-0
+      ml-lg-5 
       align-self-stretch 
       site-footer__iframe-wrapper
       ">
