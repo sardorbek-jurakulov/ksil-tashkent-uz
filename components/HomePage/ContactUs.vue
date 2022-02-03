@@ -14,8 +14,8 @@
     <h2 class="
     text-center 
     text-dark 
-    mb-4
-    mb-md-5
+    mb-3
+    mb-md-4
     contact-us__title
     ">СВЯЖИТЕСЬ С НАМИ</h2>
     <ul class="
