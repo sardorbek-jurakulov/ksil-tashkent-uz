@@ -7,71 +7,172 @@
       :autoplay="true" 
       :autoplaySpeed="3000" 
       :rows="1" 
-      :slidesPerRow="3"
-      ref="carousel"
-      class="d-flex align-items-center jsutify-content-center flex-wrap border border-primary"
-    >
-      <div class="background-color: red;">
-        <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="300" height="250">
+      :slidesPerRow="3" 
+      :responsive='[
+          {
+            "breakpoint": 1200,
+            "settings": {
+              "slidesPerRow": 2,
+            }
+          },
+          {
+            "breakpoint": 768,
+            "settings": {
+              "slidesPerRow": 1,
+            }
+          }
+        ]'
+      ref="carousel" 
+      class="
+        d-flex 
+        align-items-center 
+        justify-content-center 
+        ">
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
+        <img src="@/assets/img/slider/slider-1.jpg" alt="slide" width="380" height="250">
       </div>
-      <div>
-        <img src="@/assets/img/slider/slider-2.jpg" alt="slide" width="300" height="250">
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
+        <img src="@/assets/img/slider/slider-2.jpg" alt="slide" width="400" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-3.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-4.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-5.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-6.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
-        <img src="@/assets/img/slider/slider-7.jpg" alt="slide" width="280" height="250">
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
+        <img src="@/assets/img/slider/slider-7.jpg" alt="slide" width="270" height="260">
       </div>
-      <div>
-        <img src="@/assets/img/slider/slider-8.jpg" alt="slide" width="200" height="200">
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
+        <img src="@/assets/img/slider/slider-8.jpg" alt="slide" width="210" height="240">
       </div>
-      <div>
-        <img src="@/assets/img/slider/slider-9.png" alt="slide" width="300" height="250">
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
+        <img src="@/assets/img/slider/slider-9.png" alt="slide" width="320" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-10.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-11.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-12.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-13.jpg" alt="slide" width="280" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-14.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-15.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-16.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-17.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-18.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-19.jpg" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-20.png" alt="slide" width="300" height="250">
       </div>
-      <div>
+      <div class="
+      d-inline-flex 
+      align-items-center 
+      justify-content-center
+      ">
         <img src="@/assets/img/slider/slider-21.png" alt="slide" width="300" height="250">
       </div>
     </VueSlickCarousel>
