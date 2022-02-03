@@ -1,8 +1,21 @@
 <template>
   <div class="container p-5 mb-5 products-types-container">
     <h2 class="text-primary text-center mb-5">ОБОРУДОВАНИЕ ДЛЯ ИГРОВЫХ ПЛОЩАДОК</h2>
-    <div class="d-flex flex-wrap justify-content-between align-items-center products-types-container-items-wrapper">
-      <a class="d-flex flex-column justify-content-center align-items-center mb-5 products-types-container-item" href="#" target="_self">
+    <div class="
+      d-flex 
+      flex-wrap 
+      flex-md-row 
+      flex-column
+      justify-content-xl-between
+      justify-content-lg-around
+      justify-content-md-between
+      align-items-center 
+      products-types-container-items-wrapper 
+      border border-primary
+    ">
+      <a class="
+        d-flex 
+        flex-column justify-content-center align-items-center mb-5 products-types-container-item" href="#" target="_self">
         <h3 class="order-1 mb-4">Горки</h3>
         <img class="mb-4" src="@/assets/img/products-types/slides.jpg" alt="Горки" width="300" height="200">
       </a>
