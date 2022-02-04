@@ -22,6 +22,6 @@ export default {
     AppProductsTypesList: ProductsTypesList,
     AppContactUs: ContactUs,
     AppAboutUs: AboutUs,
-  }
+  },
 }
 </script>

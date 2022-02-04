@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Oops, something went wrong</p>
+    <p>Страница, которую вы искали, не найдена</p>
   </div>
 </template>
