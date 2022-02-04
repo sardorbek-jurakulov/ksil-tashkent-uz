@@ -29,18 +29,128 @@
     flex-wrap
     contact-us__features-list
     ">
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Гибкие цены</li>
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Гарантийный период</li>
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Монтажное сопровождение</li>
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Регулярный осмотр объектов</li>
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Паспорта и сертификаты</li>
-      <li class="p-1 p-md-2 m-1 m-md-2 d-flex align-items-center justify-content-center align-self-stretch contact-us__features-item">- Отгрузка по Узбекистану-1 день</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Гибкие цены</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Гарантийный период</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Монтажное сопровождение</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Регулярный осмотр объектов</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Паспорта и сертификаты</li>
+      <li class="
+      p-1 
+      p-md-2 
+      m-1 
+      m-md-2 
+      d-flex 
+      align-items-center 
+      justify-content-center 
+      align-self-stretch 
+      contact-us__features-item
+      ">- Отгрузка по Узбекистану-1 день</li>
     </ul>
-    <button class="w-25 mb-4 mb-md-5 btn btn-success contact-us__button">связаться с нами</button>
+    <button 
+      type="button" 
+      class="w-25 mb-4 mb-md-5 btn btn-success contact-us__button" 
+      data-toggle="modal" 
+      data-target="#contactUsModel"
+      >связаться с нами</button>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="contactUsModel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Обратное связь</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <AppControlInput type="text" v-model="firstName" id=""></AppControlInput>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  head: {
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js' },
+      { src: 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js' },
+      { src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js' },
+    ],
+  },
+  data() {
+    return {
+      firstName: '',
+      lastName: '',
+      email: '',
+      phoneNumber: '',
+      referenceText: ''
+    }
+  }
+}
+</script>
 
 <style scoped>
 .contact-us__container {
@@ -63,4 +173,6 @@
   width: 48%;
   font-weight: bold;
 }
+
+/* Modal partition */
 </style>
