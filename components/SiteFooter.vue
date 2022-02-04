@@ -5,7 +5,7 @@
   flex-column 
   align-items-center 
   justify-content-center 
-  p-3 
+  p-4 
   p-md-5 
   site-footer 
   site-footer__container
