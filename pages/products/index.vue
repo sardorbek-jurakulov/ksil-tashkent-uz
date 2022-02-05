@@ -14,7 +14,7 @@
 export default {
   computed: {
     getProducts() {
-      return this.$store.dispatch();
+      return this.$store.getters.();
     }
   }
 }
