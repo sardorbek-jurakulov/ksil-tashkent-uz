@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="
+    <nuxt-link class="
     d-flex 
     flex-column 
     justify-content-center 
     align-items-center 
     mb-3 
     mb-md-4
-    ">
+    " :to="{
+      path: '/products/' + 'cardTitle'
+      }">
       <h3 class="
       order-1 
       mb-3
@@ -20,7 +22,7 @@
         mb-3
         mb-md-4
       "></div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 <script>

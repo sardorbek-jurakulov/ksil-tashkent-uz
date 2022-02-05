@@ -20,7 +20,9 @@
       mb-3 
       mb-md-4
       products-types-container__item
-      " to="/products" target="_self">
+      " :to="{
+        path: '/products' + 'Горки'
+        }">
         <h3 class="
         order-1 
         mb-3
