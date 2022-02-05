@@ -12,7 +12,7 @@
       align-items-center 
       products-types-container__items-wrapper
     ">
-      <a class="
+      <nuxt-link class="
       d-flex 
       flex-column 
       justify-content-center 
@@ -20,7 +20,7 @@
       mb-3 
       mb-md-4
       products-types-container__item
-      " href="#" target="_self">
+      " to="/products" target="_self">
         <h3 class="
         order-1 
         mb-3
@@ -33,7 +33,7 @@
         mb-md-4
         products-types-container__item-image
         " src="@/assets/img/products-types/slides.jpg" alt="Горки" width="300" height="200">
-      </a>
+      </nuxt-link>
       <a class="
       d-flex 
       flex-column 
