@@ -21,7 +21,7 @@
       mb-md-4
       products-types-container__item
       " :to="{
-        path: '/products' + 'Горки'
+        path: '/products/' + 'Горки',
         }">
         <h3 class="
         order-1 

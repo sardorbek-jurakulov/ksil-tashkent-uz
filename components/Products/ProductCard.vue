@@ -8,14 +8,14 @@
     mb-3 
     mb-md-4
     " :to="{
-      path: '/products/' + 'cardTitle'
+      path: '/products/' + cardTitle,
       }">
       <h3 class="
       order-1 
       mb-3
       mb-md-4
       px-2
-      ">{{ cardTitle }}/h3>
+      ">{{ cardTitle }}</h3>
       <div 
       :style="{backgroundImage: cardImgPath}"  
       class="
