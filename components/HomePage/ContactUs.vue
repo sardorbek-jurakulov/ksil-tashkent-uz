@@ -116,7 +116,11 @@
           
           <!-- Modal body -->
           <div class="modal-body">
-            <AppControlInput type="text" v-model="firstName" id=""></AppControlInput>
+            <AppControlInput type="text" v-model="firstName">Имя <span class="text-danger">*</span></AppControlInput>
+            <AppControlInput type="text" v-model="lastName">Фамилия <span class="text-danger">*</span></AppControlInput>
+            <AppControlInput type="email" v-model="email">Email <span class="text-danger">*</span></AppControlInput>
+            <AppControlInput type="tel" v-model="phoneNumber">Контактный телефон <span class="text-danger">*</span></AppControlInput>
+            <AppControlInput controlType="textarea" v-model="referenceText">Комментарий или сообщение <span class="text-danger">*</span></AppControlInput>
           </div>
           
           <!-- Modal footer -->
